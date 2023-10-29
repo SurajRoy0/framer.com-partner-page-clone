@@ -96,8 +96,8 @@ export default function Navbar() {
 
         <ul
           className={`${
-            isMobileMenuOpen ? "translate-y-[53%] " : "-translate-y-[55%]"
-          } transform  transition-transform duration-200 lg:hidden flex flex-col items-start font-semibold fixed z-30 left-0 bg-deepBlue w-full h-full overflow-y-scroll`}
+            isMobileMenuOpen ? "translate-y-[0%] " : "-translate-y-[120%]"
+          } transform  transition-transform duration-200 top-20 lg:hidden flex flex-col items-start font-semibold fixed z-30 left-0 bg-deepBlue w-full h-[calc(100%-80px)] pb-6 overflow-y-scroll`}
         >
           <li className="text-gray-400 cursor-pointer">
             <div className={`group flex items-center mx-3 p-2 text-xl`}>

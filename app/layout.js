@@ -7,7 +7,7 @@ import Footer from '@/container/partners/footer/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Framer Partners',
+  title: 'Framer',
   description: 'Cloned By Suraj Roy',
 }
 
