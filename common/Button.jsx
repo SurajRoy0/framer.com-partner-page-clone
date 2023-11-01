@@ -1,7 +1,7 @@
 import React from "react";
 
-export default function Button(props) {
+export default function Button({ styles, title }) {
   return (
-    <button className={`${props.styles} text-white`}>{props.title}</button>
+    <button className={`${styles} text-white`}>{title}</button>
   );
 }
